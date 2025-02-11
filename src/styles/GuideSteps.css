@@ -1,0 +1,113 @@
+/* .guide-steps {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+  } */
+
+  .guide-steps {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 30%;
+    height: calc(200vh - 140px); /* Adjust height to account for navbar height */
+    background-color: #f0f0f0; /* Adjust background color as necessary */
+  }
+
+  .guide-steps .nested-list {
+    font-size: 0.8rem; /* Further reduce font size for nested list */
+    padding-left: 0.5rem; /* Add padding to the left for nested list */
+    margin: 0.2rem 0; /* Adjust margin */
+  }
+
+  .guide-steps h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .guide-steps ol {
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  .guide-steps li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Increase border radius for a more rounded look */
+    padding: 15px; /* Increase padding for more space inside the box */
+    margin-bottom: 15px; /* Increase margin for more spacing between boxes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increase shadow for a more pronounced effect */
+    transition: transform 0.2s, box-shadow 0.2s; /* Add transition for hover effect */
+    list-style: none; /* Remove default list styling */
+  }
+  
+  .guide-steps li:hover {
+    transform: translateY(-5px); /* Slightly lift the box on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .guide-steps li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .guide-steps code {
+    background: #eef;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: monospace;
+  }
+  
+  .guide-steps pre {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  .code-box {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-x: auto;
+  }
+  
+  .guide-steps h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .step-box {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increase shadow for a more pronounced effect */
+    transition: transform 0.2s, box-shadow 0.2s; /* Add transition for hover effect */
+  }
+  
+  .step-box:last-child {
+    margin-bottom: 0;
+  }
+  
+  .step-box p {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .step-box pre {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }

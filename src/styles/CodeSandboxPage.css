@@ -1,0 +1,19 @@
+/* CodeSandboxPage.css */
+.code-sandbox-page {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: calc(150vh - 140px); /* Adjust height to account for navbar height */
+    background-color: #f0f0f0; /* Adjust background color as necessary */
+    padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  }
+  
+  .code-sandbox-iframe {
+    width: 70%;
+    height: 100%;
+    border: none;
+    border-radius: 4px;
+  overflow: hidden;
+  }

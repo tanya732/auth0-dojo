@@ -1,0 +1,49 @@
+.app-options {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .radio-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .radio-buttons label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+  
+  .dropdown {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .dropdown h3 {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+  }
+  
+  .dropdown ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dropdown li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .dropdown li i {
+    margin-right: 10px;
+    font-size: 1.2em;
+    color: #007bff;
+  }
+  
